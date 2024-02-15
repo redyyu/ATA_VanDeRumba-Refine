@@ -363,6 +363,7 @@ NewCarTuningTable["ATA_VanDeRumba"].parts["ATA2VisualLadder"] = {
         icon = "media/ui/tuning2/ladder_1.png",
         category = "Trunks",
         install = {
+            protection = {"TruckBed"},
             area = "TruckBed",
             weight = "auto",
             use = {
@@ -553,6 +554,7 @@ NewCarTuningTable["ATA_VanDeRumba"].parts["ATA2ProtectionWheels"] = {
         protection = {"TireFrontLeft", "TireFrontRight", "TireRearLeft", "TireRearRight"}, 
         install = { 
             sound = "ATA2InstallWheelChain",
+            transmitFirstItemCondition = true,
             use = { 
                 ATAProtectionWheelsChain = 1,
             },
@@ -568,6 +570,7 @@ NewCarTuningTable["ATA_VanDeRumba"].parts["ATA2ProtectionWheels"] = {
         },
         uninstall = {
             sound = "ATA2InstallWheelChain",
+            transmitFirstItemCondition = true,
             tools = {
                 primary = "Base.Wrench",
             },
