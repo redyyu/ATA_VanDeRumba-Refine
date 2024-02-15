@@ -59,6 +59,7 @@ NewCarTuningTable["ATA_VanDeRumba"].parts["ATA2Bullbar"] = {
             skills = {
                 MetalWelding = 2,
             },
+            recipes = {"Intermediate Mechanics"},
             result = "auto",
             time = 20,
         }
@@ -102,6 +103,7 @@ NewCarTuningTable["ATA_VanDeRumba"].parts["ATA2Bullbar"] = {
             skills = {
                 MetalWelding = 2,
             },
+            recipes = {"Intermediate Mechanics"},
             result = "auto",
             time = 20,
         }
@@ -144,6 +146,7 @@ NewCarTuningTable["ATA_VanDeRumba"].parts["ATA2Bullbar"] = {
             skills = {
                 MetalWelding = 2,
             },
+            recipes = {"Intermediate Mechanics"},
             result = {
                 MetalPipe = 2,
                 SmallSheetMetal=7,
@@ -175,7 +178,7 @@ NewCarTuningTable["ATA_VanDeRumba"].parts["ATA2ProtectionHood"] = {
             skills = {
                 MetalWelding = 4,
             },
-            recipes = {carRecipe},
+            recipes = {"Intermediate Mechanics", carRecipe},
             time = 55, 
         },
         uninstall = {
@@ -190,6 +193,7 @@ NewCarTuningTable["ATA_VanDeRumba"].parts["ATA2ProtectionHood"] = {
             skills = {
                 MetalWelding = 2,
             },
+            recipes = {"Intermediate Mechanics"},
             result = {
                 SheetMetal = 1,
                 MetalBar = 1,
@@ -257,7 +261,7 @@ NewCarTuningTable["ATA_VanDeRumba"].parts["ATA2ProtectionWindshield"] = {
             skills = {
                 MetalWelding = 4,
             },
-            recipes = {carRecipe},
+            recipes = {"Intermediate Mechanics", carRecipe},
             requireInstalled = {"Windshield"},
             time = 45, 
         },
@@ -268,6 +272,7 @@ NewCarTuningTable["ATA_VanDeRumba"].parts["ATA2ProtectionWindshield"] = {
                 bodylocation = "Base.WeldingMask",
                 both = "Base.Crowbar",
             },
+            recipes = {"Intermediate Mechanics"},
             result = "auto",
             time = 30,
         }
@@ -294,7 +299,7 @@ NewCarTuningTable["ATA_VanDeRumba"].parts["ATA2ProtectionWindshieldRear"] = {
             skills = {
                 MetalWelding = 4,
             },
-            recipes = {carRecipe},
+            recipes = {"Intermediate Mechanics", carRecipe},
             requireInstalled = {"WindshieldRear"},
             time = 45, 
         },
@@ -305,6 +310,7 @@ NewCarTuningTable["ATA_VanDeRumba"].parts["ATA2ProtectionWindshieldRear"] = {
                 bodylocation = "Base.WeldingMask",
                 both = "Base.Crowbar",
             },
+            recipes = {"Intermediate Mechanics"},
             result = "auto",
             time = 30,
         }
@@ -331,7 +337,7 @@ NewCarTuningTable["ATA_VanDeRumba"].parts["ATA2ProtectionWindowFrontLeft"] = {
             skills = {
                 MetalWelding = 4,
             },
-            recipes = {carRecipe},
+            recipes = {"Intermediate Mechanics", carRecipe},
             requireInstalled = {"WindowFrontLeft"},
             time = 65, 
         },
@@ -340,6 +346,7 @@ NewCarTuningTable["ATA_VanDeRumba"].parts["ATA2ProtectionWindowFrontLeft"] = {
             tools = {
                 both = "Base.Crowbar",
             },
+            recipes = {"Intermediate Mechanics"},
             result = "auto",
             time = 65,
         }
@@ -371,7 +378,7 @@ NewCarTuningTable["ATA_VanDeRumba"].parts["ATA2VisualLadder"] = {
             skills = {
                 MetalWelding = 4,
             },
-            recipes = {carRecipe},
+            recipes = {"Intermediate Mechanics", carRecipe},
             requireInstalled = {"DoorRear"},
             time = 45, 
         },
@@ -412,7 +419,7 @@ NewCarTuningTable["ATA_VanDeRumba"].parts["ATA2RoofBase"] = {
                 primary = "Base.Wrench",
             },
             requireInstalled = {"ATA2VisualLadder"},
-            recipes = {carRecipe},
+            recipes = {"Intermediate Mechanics", carRecipe},
             skills = {
                 MetalWelding = 4,
             },
@@ -473,7 +480,7 @@ NewCarTuningTable["ATA_VanDeRumba"].parts["ATA2InteractiveTrunkRoofRack"] = {
                 MetalWelding = 5,
             },
             requireInstalled = {"ATA2RoofBase"},
-            recipes = {carRecipe},
+            recipes = {"Intermediate Mechanics", carRecipe},
             time = 65, 
         },
         uninstall = {
@@ -515,7 +522,7 @@ NewCarTuningTable["ATA_VanDeRumba"].parts["ATA2RoofRackToolbox"] = {
                 MetalWelding = 6,
             },
             requireInstalled = {"ATA2InteractiveTrunkRoofRack"},
-            recipes = {carRecipe},
+            recipes = {"Intermediate Mechanics", carRecipe},
             time = 55, 
         },
         uninstall = {
