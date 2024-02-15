@@ -140,7 +140,7 @@ module Base
                 rotate = 0.0000 0.0000 0.0000,
                 area = SeatFrontLeft,
             }
-
+            /* prevent switch to rear seats */
             switchSeat RearLeft
             {
             }
@@ -164,7 +164,7 @@ module Base
                 rotate = 0.0000 0.0000 0.0000,
                 area = SeatFrontRight,
             }
-
+            /* prevent switch to rear seats */
             switchSeat RearLeft
             {
             }
@@ -188,7 +188,7 @@ module Base
                 rotate = 0.0000 0.0000 0.0000,
                 area = SeatRearLeft,
             }
-
+            /* prevent switch to front seats */
             switchSeat FrontLeft
             {
             }
@@ -213,7 +213,8 @@ module Base
                 area = SeatRearRight,
             }
 
-            switchSeat FrontLeft
+            /* prevent switch to front seats */
+            switchSeat FrontLeft  
             {
             }
 
@@ -281,7 +282,7 @@ module Base
 
         part TruckBed
         {
-            itemType = Base.VanSeatsTrunk,
+            itemType = Base.SmallTrunk,
             container
             {
                 conditionAffectsCapacity = true,
@@ -313,7 +314,6 @@ module Base
         {
             /*
             category = nodisplay,
-    
             container
             {
                 test = ATATuning.ContainerAccess.BlockSeat,
