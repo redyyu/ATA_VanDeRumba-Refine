@@ -1,0 +1,30 @@
+-------------------
+v.2.00
+2023-03-25
+
+Мод переделан под библиотеку tsarslib 2.0.
+
+Mod re-designed for tsarslib 2.0.
+
+-------------------
+v.1.02
+2023-01-01
+
+Уменьшено количество необходимого пропана для изготовления запчастей.
+Изменены места и шансы спавна журнала.
+
+Reduced the amount of propane needed to make parts.
+Changed the locations and chances of the magazine spawning.
+
+-------------------
+v.1.01
+2022-08-16
+
+Исправлена ошибка из-за которой нельзя было установить защиту капота и переднего стекла.
+Исправлена ошибка из-за которой в выдвижной ящик нельзя было класть вещи.
+
+Fixed bug that made it impossible to install hood and front window protection.
+Fixed bug that made it impossible to put things in the drawer.
+
+-------------------
+v.1.0
