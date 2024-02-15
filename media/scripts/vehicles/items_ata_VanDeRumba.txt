@@ -9,6 +9,7 @@ module Autotsar
         Weight    =    0.1,
         Type    =    Literature,
         DisplayName    =    Autotsar Tuning Universe,
+        DisplayCategory = Literature,
         Icon    =    ATATuningMagUniverseIcon,
         TeachedRecipes  =   Basic Tuning;ATAVanDeRumbaRecipes,
         ReplaceOnUse    =   ATAVanDeRumbaTuningMag,
