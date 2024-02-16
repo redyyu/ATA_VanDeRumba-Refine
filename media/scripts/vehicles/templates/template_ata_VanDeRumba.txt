@@ -140,7 +140,7 @@ module Base
                 rotate = 0.0000 0.0000 0.0000,
                 area = SeatFrontLeft,
             }
-            /* prevent switch to rear seats */
+            /* prevent switch to rear seats 
             switchSeat RearLeft
             {
             }
@@ -148,6 +148,7 @@ module Base
             switchSeat RearRight
             {
             }
+            */
         }
 
         passenger FrontRight
@@ -164,7 +165,7 @@ module Base
                 rotate = 0.0000 0.0000 0.0000,
                 area = SeatFrontRight,
             }
-            /* prevent switch to rear seats */
+            /* prevent switch to rear seats 
             switchSeat RearLeft
             {
             }
@@ -172,6 +173,7 @@ module Base
             switchSeat RearRight
             {
             }
+            */
         }
 
         passenger RearLeft
@@ -188,7 +190,7 @@ module Base
                 rotate = 0.0000 0.0000 0.0000,
                 area = SeatRearLeft,
             }
-            /* prevent switch to front seats */
+            /* prevent switch to front seats
             switchSeat FrontLeft
             {
             }
@@ -196,6 +198,7 @@ module Base
             switchSeat FrontRight
             {
             }
+            */
         }
 
         passenger RearRight
@@ -213,7 +216,7 @@ module Base
                 area = SeatRearRight,
             }
 
-            /* prevent switch to front seats */
+            /* prevent switch to front seats
             switchSeat FrontLeft  
             {
             }
@@ -221,6 +224,7 @@ module Base
             switchSeat FrontRight
             {
             }
+            */
         }
 
         area Engine

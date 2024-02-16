@@ -31,9 +31,8 @@ NewCarTuningTable["ATA_VanDeRumba"].parts["ATA2Bullbar"] = {
             use = {
                 MetalPipe = 4,
                 MetalBar=3,
-                Screws=4,
                 BlowTorch = 6,
-                Screws=4,
+                Screws=5,
             },
             tools = {
                 bodylocation = "Base.WeldingMask",
@@ -78,7 +77,7 @@ NewCarTuningTable["ATA_VanDeRumba"].parts["ATA2Bullbar"] = {
                 SmallSheetMetal=2,
                 MetalBar=2,
                 BlowTorch = 6,
-                Screws=4,
+                Screws=10,
             },
             tools = {
                 bodylocation = "Base.WeldingMask",
@@ -121,6 +120,7 @@ NewCarTuningTable["ATA_VanDeRumba"].parts["ATA2Bullbar"] = {
                 SheetMetal = 4,
                 MetalBar=4,
                 BlowTorch = 7,
+                Screws=10,
             },
             tools = {
                 bodylocation = "Base.WeldingMask",
@@ -148,10 +148,9 @@ NewCarTuningTable["ATA_VanDeRumba"].parts["ATA2Bullbar"] = {
             },
             recipes = {"Intermediate Mechanics"},
             result = {
-                MetalPipe = 2,
-                SmallSheetMetal=7,
+                SheetMetal=2,
                 MetalBar=2,
-                Screws=2,
+                Screws=5,
             },
             time = 30,
         }
@@ -168,7 +167,7 @@ NewCarTuningTable["ATA_VanDeRumba"].parts["ATA2ProtectionHood"] = {
             use = {
                 SheetMetal = 2,
                 MetalBar = 2,
-                Screws = 4,
+                Screws = 10,
                 BlowTorch = 4,
             },
             tools = {
@@ -184,7 +183,7 @@ NewCarTuningTable["ATA_VanDeRumba"].parts["ATA2ProtectionHood"] = {
         uninstall = {
             animation = "ATA_IdleLeverOpenMid",
             use = {
-                BlowTorch=4,
+                BlowTorch=2,
             },
             tools = {
                 bodylocation = "Base.WeldingMask",
@@ -197,7 +196,7 @@ NewCarTuningTable["ATA_VanDeRumba"].parts["ATA2ProtectionHood"] = {
             result = {
                 SheetMetal = 1,
                 MetalBar = 1,
-                Screws = 3,
+                Screws = 5,
             },
             time = 33,
         }
@@ -222,7 +221,7 @@ NewCarTuningTable["ATA_VanDeRumba"].parts["ATA2ProtectionHood"] = {
         uninstall = {
             animation = "ATA_IdleLeverOpenMid",
             use = {
-                BlowTorch=4,
+                BlowTorch=2,
             },
             tools = {
                 bodylocation = "Base.WeldingMask",
@@ -234,7 +233,7 @@ NewCarTuningTable["ATA_VanDeRumba"].parts["ATA2ProtectionHood"] = {
             result = {
                 SheetMetal = 1,
                 MetalBar = 1,
-                Screws = 3,
+                Screws = 5,
             },
             time = 33,
         }
@@ -370,7 +369,7 @@ NewCarTuningTable["ATA_VanDeRumba"].parts["ATA2VisualLadder"] = {
                 MetalPipe = 4,
                 MetalBar = 6,
                 BlowTorch=7,
-                Screws=4,
+                Screws=10,
             },
             tools = {
                 bodylocation = "Base.WeldingMask",
@@ -387,7 +386,7 @@ NewCarTuningTable["ATA_VanDeRumba"].parts["ATA2VisualLadder"] = {
             area = "TruckBed",
             animation = "ATA_Crowbar_DoorLeft",
             use = {
-                BlowTorch=5,
+                BlowTorch=4,
             },
             tools = {
                 bodylocation = "Base.WeldingMask",
@@ -413,7 +412,7 @@ NewCarTuningTable["ATA_VanDeRumba"].parts["ATA2RoofBase"] = {
             use = {
                 MetalPipe = 6,
                 BlowTorch=5,
-                Screws=4,
+                Screws=10,
             },
             tools = {
                 bodylocation = "Base.WeldingMask",
@@ -430,7 +429,7 @@ NewCarTuningTable["ATA_VanDeRumba"].parts["ATA2RoofBase"] = {
             area = "TruckBed",
             animation = "ATA_IdleLeverOpenHigh",
             use = {
-                BlowTorch=5,
+                BlowTorch=3,
             },
             tools = {
                 bodylocation = "Base.WeldingMask",
@@ -470,8 +469,8 @@ NewCarTuningTable["ATA_VanDeRumba"].parts["ATA2InteractiveTrunkRoofRack"] = {
                 MetalPipe = 5,
                 SheetMetal = 10,
                 MetalBar=4,
-                BlowTorch = 12,
-                Screws=8,
+                BlowTorch = 10,
+                Screws=10,
             },
             tools = {
                 bodylocation = "Base.WeldingMask",
@@ -488,7 +487,7 @@ NewCarTuningTable["ATA_VanDeRumba"].parts["ATA2InteractiveTrunkRoofRack"] = {
             area = "TruckBed",
             animation = "ATA_IdleLeverOpenHigh",
             use = {
-                BlowTorch=6,
+                BlowTorch=5,
             },
             tools = {
                 bodylocation = "Base.WeldingMask",
@@ -512,8 +511,8 @@ NewCarTuningTable["ATA_VanDeRumba"].parts["ATA2RoofRackToolbox"] = {
         install = {
             area = "TruckBed",
             use = {
-                SmallSheetMetal = 12,
-                BlowTorch = 6,
+                SmallSheetMetal = 8,
+                BlowTorch = 4,
             },
             tools = {
                 bodylocation = "Base.WeldingMask",
@@ -530,7 +529,7 @@ NewCarTuningTable["ATA_VanDeRumba"].parts["ATA2RoofRackToolbox"] = {
             area = "TruckBed",
             animation = "ATA_IdleLeverOpenHigh",
             use = {
-                BlowTorch=4,
+                BlowTorch=2,
             },
             tools = {
                 bodylocation = "Base.WeldingMask",
