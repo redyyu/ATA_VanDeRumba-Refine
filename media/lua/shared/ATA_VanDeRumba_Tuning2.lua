@@ -512,8 +512,8 @@ NewCarTuningTable["ATA_VanDeRumba"].parts["ATA2RoofRackToolbox"] = {
         install = {
             area = "TruckBed",
             use = {
-                SmallSheetMetal = 11,
-                BlowTorch = 7,
+                SmallSheetMetal = 12,
+                BlowTorch = 6,
             },
             tools = {
                 bodylocation = "Base.WeldingMask",
