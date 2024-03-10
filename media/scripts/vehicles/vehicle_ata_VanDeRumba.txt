@@ -1,11 +1,18 @@
 module Base
 {
-	vehicle ATA_VanDeRumba
-	{
-		template! = ATAVanDeRumba,
-		skin
-		{
-			texture = Vehicles/ATA_VanDeRumba_base,
-		}
-	}
+    vehicle ATA_VanDeRumba {
+        template! = ATAVanDeRumba,
+        skin {
+            texture = Vehicles/ATA_VanDeRumba_white,
+        }
+        skin {
+            texture = Vehicles/ATA_VanDeRumba_black,
+        }
+        skin {
+            texture = Vehicles/ATA_VanDeRumba_red,
+        }
+        skin {
+            texture = Vehicles/ATA_VanDeRumba_yellow,
+        }
+    }
 }
