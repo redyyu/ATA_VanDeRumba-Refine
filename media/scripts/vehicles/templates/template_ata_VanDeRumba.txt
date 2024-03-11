@@ -89,7 +89,7 @@ module Base
         wheelFriction = 1.4f,
         frontEndHealth = 150,
         rearEndHealth = 150,
-        seats = 2,
+        seats = 4,
         isSmallVehicle = false,
 
         wheel FrontLeft
