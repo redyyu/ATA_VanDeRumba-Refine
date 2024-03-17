@@ -1,0 +1,8 @@
+ContextMenu_EN = {
+  /* Other translation is in tsarslib */
+
+  ContextMenu_Paint_White = "White"
+  ContextMenu_Paint_ChillSummer = "Chill Summer (Black)"
+  ContextMenu_Paint_SweetSummer = "Sweet Summer (Red)"
+  ContextMenu_Paint_FoundParadise = "Found Paradise (Yellow)"
+}
