@@ -53,7 +53,8 @@ local function doFillMenuOutsideVehicle(playerObj, context, vehicle, test)
                                                                vehicle,
                                                                v.skinIndex,
                                                                getText("ContextMenu_Paint_"..k),
-                                                               v.paintTable)
+                                                               v.paintTable,
+                                                               'SeatRearLeft')
                 if optAvailable then
                     -- any opt available is good to go.
                     menuAvailable = true
