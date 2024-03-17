@@ -45,6 +45,17 @@ local function doFillMenuOutsideVehicle(playerObj, context, vehicle, test)
         local paintMenuOpt, paintSubMenu = PaintVehicle.getOrCreatePaintMenu(context)
         local menuAvailable = false
         
+        local area = 'SeatRearLeft'
+        if isDebugEnabled() then
+            print("================= Vehicle Angle ================")
+            print("Y: "..vehicle:getAngleY().."  X: "..vehicle:getAngleX().. "  Z:".. vehicle:getAngleZ())
+            print("================================================")
+        end
+
+        if vehicle:getAngleZ() > 0  and vehicle:getAngleZ() > -180 then
+            area = 'SeatRearRight'
+        end
+
         for k, v in pairs(paintPlanTable) do
             if (vehicle:getSkinIndex()) ~= v.skinIndex then
                 optAvailable = PaintVehicle.createPaintMenuOpt(paintSubMenu,
@@ -54,7 +65,7 @@ local function doFillMenuOutsideVehicle(playerObj, context, vehicle, test)
                                                                v.skinIndex,
                                                                getText("ContextMenu_Paint_"..k),
                                                                v.paintTable,
-                                                               'SeatRearLeft')
+                                                               area)
                 if optAvailable then
                     -- any opt available is good to go.
                     menuAvailable = true
