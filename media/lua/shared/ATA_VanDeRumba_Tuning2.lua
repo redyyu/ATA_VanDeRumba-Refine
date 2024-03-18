@@ -71,7 +71,7 @@ NewCarTuningTable["ATA_VanDeRumba"].parts["ATA2Bullbar"] = {
             weight = "auto",
             animation = "ATA_PickLock",
             use = {
-                MetalPipe = 3,
+                MetalPipe = 4,
                 SmallSheetMetal=2,
                 MetalBar=2,
                 BlowTorch = 6,
@@ -82,8 +82,8 @@ NewCarTuningTable["ATA_VanDeRumba"].parts["ATA2Bullbar"] = {
                 primary = "Base.Wrench",
             },
             skills = {
-                Mechanics = 3,
-                MetalWelding = 4,
+                Mechanics = 5,
+                MetalWelding = 6,
             },
             recipes = {"Intermediate Mechanics", carRecipe},
             time = 40, 
@@ -117,7 +117,7 @@ NewCarTuningTable["ATA_VanDeRumba"].parts["ATA2Bullbar"] = {
             use = {
                 SheetMetal = 4,
                 MetalBar=4,
-                BlowTorch = 7,
+                BlowTorch = 10,
                 Screws=10,
             },
             tools = {
@@ -125,8 +125,8 @@ NewCarTuningTable["ATA_VanDeRumba"].parts["ATA2Bullbar"] = {
                 primary = "Base.Wrench",
             },
             skills = {
-                Mechanics = 3,
-                MetalWelding = 5,
+                Mechanics = 6,
+                MetalWelding = 7,
             },
             requireModel = "ATAVanDeRumbaBullbar2",
             recipes = {"Intermediate Mechanics", carRecipe},
@@ -135,7 +135,7 @@ NewCarTuningTable["ATA_VanDeRumba"].parts["ATA2Bullbar"] = {
         uninstall = {
             animation = "ATA_Crowbar_DoorLeft",
             use = {
-                BlowTorch=4,
+                BlowTorch=5,
             },
             tools = {
                 bodylocation = "Base.WeldingMask",
