@@ -1,0 +1,8 @@
+Recipe_EN = {
+
+    /* Other translation is in tsarslib */
+
+    /************ Autotsar Tuning Atelier - Mustang 66 ************/
+    Recipe_Make_ATAVanDeRumbaBullbar1Item = "Make DeRumba Van - Bullbar with lights",
+    Recipe_Cut_ATAVanDeRumbaBullbar1Item = "Cut DeRumba Van - Bullbar with lights",
+}

@@ -4,7 +4,7 @@ module Autotsar
     {
         Base
     }
-    item ATAVanDeRumbaTuningMag /* Спавн */ 
+    item ATAVanDeRumbaTuningMag
     {
         Weight = 0.1,
         Type = Literature,
@@ -16,5 +16,38 @@ module Autotsar
         Tooltip = Tooltip_item_ATATuningMagDeRumba,
         StaticModel = Autotsar.ATATuningMagUniverse_Reading,
         WorldStaticModel = Autotsar.ATATuningMagUniverse_Ground,
+    }
+
+
+    
+    /* Bumpers & Bullbars */
+    model ATAVanDeRumbaBullbar1_Ground {
+        mesh = WorldItems/ATA_VanDeRumba_witems|bumper1,
+        texture = Vehicles/ATA_VanDeRumba_items,
+        scale = 0.04,
+    }
+    item ATAVanDeRumbaBullbar1Item {
+        DisplayCategory = Tuning,
+        Weight = 10.0,
+        Type = Normal,
+        DisplayName = ATAVanDeRumbaBullbar1Item,
+        Icon = ATAVanDeRumbaBullbar1Item,
+        VehicleType = 2,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 25,
+        MechanicsItem = TRUE,
+        WorldStaticModel = Autotsar.ATAVanDeRumbaBullbar11_Ground,
+    }
+    recipe Cut ATAVanDeRumbaBullbar1Item {
+        ATAVanDeRumbaBullbar1 = 1,
+        BlowTorch = 2,
+        keep WeldingMask,
+        Result: SmallSheetMetal = 8,
+        Time: 350.0,
+        Category: Welding,
+        SkillRequired: MetalWelding=2,
+        OnCreate: Recipe.OnCreate.CutATAUnusableMetal,
+        OnGiveXP: Recipe.OnGiveXP.MetalWelding10,
+        NeedToBeLearn: false,
     }
 }

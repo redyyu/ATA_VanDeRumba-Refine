@@ -1,0 +1,18 @@
+module Base
+{
+
+    /** 
+        'ConditionModifier' option could be remove, default = 1.
+        also the first fixer seems gain more effective.
+    **/
+
+    fixing Fix VanDeRumba Bullbar Welding {
+        Require : ATAVanDeRumbaBullbar1Item,
+        GlobalItem : BlowTorch=2,
+        ConditionModifier : 1.2,
+
+        Fixer : MetalPipe=2; MetalWelding=4;Mechanics=3,
+        Fixer : MetalBar=2; MetalWelding=3;Mechanics=2,
+    }
+    
+}

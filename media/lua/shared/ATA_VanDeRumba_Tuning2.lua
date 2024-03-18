@@ -25,42 +25,40 @@ NewCarTuningTable["ATA_VanDeRumba"].parts["ATA2Bullbar"] = {
         category = "Bullbars",
         secondModel = "ATAVanDeRumbaBullbarLights",
         protection = {"HeadlightLeft", "HeadlightRight"},
+        spawnChance = 90,
         install = {
             weight = "auto",
             animation = "ATA_PickLock",
+            transmitFirstItemCondition = true,
             use = {
-                MetalPipe = 4,
-                MetalBar=3,
-                BlowTorch = 6,
-                Screws=5,
+                Autotsar__ATAVanDeRumbaBullbar1Item = 1,
+                Screws=10,
             },
             tools = {
-                bodylocation = "Base.WeldingMask",
                 primary = "Base.Wrench",
             },
             skills = {
-                MetalWelding = 3,
-                Mechanics = 3,
+                Mechanics = 4,
             },
-            recipes = {"Intermediate Mechanics", carRecipe},
-            time = 40, 
+            recipes = {"Intermediate Mechanics"},
+            time = 30, 
         },
         uninstall = {
             weight = "auto",
-            animation = "ATA_Crowbar_DoorLeft",
-            use = {
-                BlowTorch=3,
-            },
+            animation = "ATA_PickLock",
             tools = {
-                bodylocation = "Base.WeldingMask",
-                both = "Base.Crowbar",
+                primary = "Base.Wrench",
             },
             skills = {
-                MetalWelding = 2,
+                Mechanics = 4,
             },
             recipes = {"Intermediate Mechanics"},
-            result = "auto",
-            time = 20,
+            transmitConditionOnFirstItem = true,
+            result = {
+                Autotsar__ATAVanDeRumbaBullbar1Item = 1,
+                Screws=5,
+            },
+            time = 30,
         }
     },
     ATAVanDeRumbaBullbar2 = {

@@ -56,3 +56,18 @@ table.insert(ProceduralDistributions.list["ToolStoreBooks"].items, 1);
 --OWN:
 table.insert(ProceduralDistributions.list["BookstoreBooks"].items, "Autotsar.ATAVanDeRumbaTuningMag");
 table.insert(ProceduralDistributions.list["BookstoreBooks"].items, 1);
+
+
+
+-- ATAVanDeRumbaBullbar1Item
+table.insert(ProceduralDistributions.list["CrateMechanics"].items, "Autotsar.ATAVanDeRumbaBullbar1Item");
+table.insert(ProceduralDistributions.list["CrateMechanics"].items, 0.75);
+table.insert(ProceduralDistributions.list["GarageMechanics"].items, "Autotsar.ATAVanDeRumbaBullbar1Item");
+table.insert(ProceduralDistributions.list["GarageMechanics"].items, 0.75);
+table.insert(ProceduralDistributions.list["MechanicShelfTools"].items, "Autotsar.ATAVanDeRumbaBullbar1Item");
+table.insert(ProceduralDistributions.list["MechanicShelfTools"].items, 0.75);
+table.insert(ProceduralDistributions.list["MechanicShelfTools"].junk.items, "Autotsar.ATAVanDeRumbaBullbar1Item");
+table.insert(ProceduralDistributions.list["MechanicShelfTools"].junk.items, 0.75);
+table.insert(ProceduralDistributions.list["MechanicShelfWheels"].items, "Autotsar.ATAVanDeRumbaBullbar1Item");
+table.insert(ProceduralDistributions.list["MechanicShelfWheels"].items, 0.75);
+
