@@ -460,7 +460,7 @@ NewCarTuningTable["ATA_VanDeRumba"].parts["ATA2InteractiveTrunkRoofRack"] = {
                 },
             }
         },
-        containerCapacity = 200,
+        containerCapacity = 120,
         install = {
             area = "TruckBed",
             use = {
