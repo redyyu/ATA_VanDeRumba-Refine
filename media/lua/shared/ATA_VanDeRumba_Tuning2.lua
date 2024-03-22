@@ -359,6 +359,7 @@ NewCarTuningTable["ATA_VanDeRumba"].parts["ATA2VisualLadder"] = {
     Default = {
         icon = "media/ui/tuning2/ladder_1.png",
         category = "Trunks",
+        protection = {"DoorRear"},
         install = {
             protection = {"TruckBed"},
             area = "TruckBed",
