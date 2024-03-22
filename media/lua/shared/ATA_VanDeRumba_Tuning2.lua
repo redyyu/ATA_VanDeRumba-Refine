@@ -207,8 +207,8 @@ NewCarTuningTable["ATA_VanDeRumba"].parts["ATA2ProtectionHood"] = {
         install = {
             animation = "ATA_IdlePainting",
             use = {
-                PaintRed = 5,
-                PaintWhite = 2,
+                PaintRed = 2,
+                PaintWhite = 1,
             },
             tools = {
                 primary = "Base.Paintbrush",
@@ -248,7 +248,7 @@ NewCarTuningTable["ATA_VanDeRumba"].parts["ATA2ProtectionWindshield"] = {
             weight = "auto",
             area = "TireFrontLeft",
             use = {
-                SheetMetal = 4,
+                SheetMetal = 2,
                 MetalBar = 4,
                 BlowTorch = 5,
             },
@@ -286,7 +286,7 @@ NewCarTuningTable["ATA_VanDeRumba"].parts["ATA2ProtectionWindshieldRear"] = {
             weight = "auto",
             area = "TruckBed",
             use = {
-                SheetMetal = 4,
+                SheetMetal = 2,
                 MetalBar = 4,
                 BlowTorch = 5,
             },
@@ -324,7 +324,7 @@ NewCarTuningTable["ATA_VanDeRumba"].parts["ATA2ProtectionWindowFrontLeft"] = {
         install = {
             weight = "auto",
             use = {
-                SheetMetal = 2,
+                SheetMetal = 1,
                 MetalBar = 2,
                 BlowTorch = 3,
             },
@@ -366,8 +366,8 @@ NewCarTuningTable["ATA_VanDeRumba"].parts["ATA2VisualLadder"] = {
             weight = "auto",
             use = {
                 MetalPipe = 4,
-                MetalBar = 6,
-                BlowTorch=7,
+                MetalBar = 4,
+                BlowTorch=5,
                 Screws=10,
             },
             tools = {
@@ -395,7 +395,7 @@ NewCarTuningTable["ATA_VanDeRumba"].parts["ATA2VisualLadder"] = {
                 MetalWelding = 2,
             },
             result = "auto",
-            requireUninstalled = {"ATA2InteractiveTrunkRoofRack", "ATA2RoofBase"},
+            -- requireUninstalled = {"ATA2InteractiveTrunkRoofRack", "ATA2RoofBase"},
             time = 25,
         }
     }
@@ -410,14 +410,14 @@ NewCarTuningTable["ATA_VanDeRumba"].parts["ATA2RoofBase"] = {
             weight = "auto",
             use = {
                 MetalPipe = 6,
-                BlowTorch=5,
-                Screws=10,
+                BlowTorch = 5,
+                Screws = 10,
             },
             tools = {
                 bodylocation = "Base.WeldingMask",
                 primary = "Base.Wrench",
             },
-            requireInstalled = {"ATA2VisualLadder"},
+            -- requireInstalled = {"ATA2VisualLadder"},
             recipes = {"Intermediate Mechanics", carRecipe},
             skills = {
                 MetalWelding = 4,
