@@ -361,7 +361,6 @@ NewCarTuningTable["ATA_VanDeRumba"].parts["ATA2VisualLadder"] = {
         category = "Trunks",
         protection = {"DoorRear"},
         install = {
-            protection = {"TruckBed"},
             area = "TruckBed",
             weight = "auto",
             use = {
