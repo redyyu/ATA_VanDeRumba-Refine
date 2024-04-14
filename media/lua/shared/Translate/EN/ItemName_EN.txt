@@ -3,5 +3,5 @@ ItemName_EN = {
     /* Other translation is in tsarslib */
 
     /************ Autotsar Tuning Atelier - DeRumba Van ************/
-    ItemName_Autotsar.ATAVanDeRumbaBullbar1Item = "DeRumba Van - Bullbar",
+    ItemName_Autotsar.ATAVanDeRumbaBullbar1Item = "DeRumba Van - Bullbar with lights",
 }
